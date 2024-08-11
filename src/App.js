@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import {Heading, VStack,IconButton,useColorMode} from '@chakra-ui/react'
 import {FaSun,FaMoon} from 'react-icons/fa'
@@ -10,21 +10,21 @@ import { useEffect, useState } from 'react';
 function App() {
 
 
-  const initialTodos= [
-    {
-        id:1,
-        body:'get Bread'
-    },
-    {
-        id:2,
-        body:'get Butter'
-    },
-    {
-        id:3,
-        body:'get Milk'
-    }
-    
-]
+//   const initialTodos= [
+//     {
+//         id:1,
+//         body:'get Bread'
+//     },
+//     {
+//         id:2,
+//         body:'get Butter'
+//     },
+//     {
+//         id:3,
+//         body:'get Milk'
+//     }
+
+// ]
 
 const [todos,setTodos]=  useState(
   ()=> JSON.parse(localStorage.getItem('todos'))||[]
