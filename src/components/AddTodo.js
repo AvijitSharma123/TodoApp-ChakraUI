@@ -48,3 +48,4 @@ export default AddTodo
 
 
 //installed a dependency called "nanoid" by "npm i nanoid" to provide id to each todo we are creating
+/// "build": "react-scripts build",
